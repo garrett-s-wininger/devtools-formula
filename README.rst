@@ -31,6 +31,11 @@ Prepares the system for Erlang development.
 
 Prepares the system for Fortran development.
 
+``go``
+------
+
+Prepares the system for Golang development.
+
 ``haskell``
 -----------
 
