@@ -1,0 +1,26 @@
+---
+driver:
+  name: docker
+provisioner:
+  name: salt_solo
+  formula: DEVTOOLS
+verifier:
+  name: inspec
+platforms:
+  - name: debian-11-3005-1-py3
+    driver:
+      image: saltimages/salt-3005.1-py3:debian-11
+  - name: ubuntu-20.04-3005-1-py3
+    driver:
+      image: saltimages/salt-3005.1-py3:ubuntu-20.04
+suites:
+  - name: ada
+    provisioner:
+      state_top:
+        base:
+          '*':
+            - DEVTOOLS.ada
+    verifier:
+      inspec_tests:
+        - path: test/integration/ada
+  

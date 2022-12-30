@@ -1,0 +1,11 @@
+---
+name: Ada
+title: Validate Ada Installation
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that an ADA compiler (GNAT) is installed
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04
