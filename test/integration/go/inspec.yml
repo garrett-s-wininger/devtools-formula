@@ -1,0 +1,11 @@
+---
+name: Go
+title: Validate Golang Installation
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that Golang tooling is installed
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04
