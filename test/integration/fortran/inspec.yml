@@ -1,0 +1,11 @@
+---
+name: Fortran
+title: Validate Fortran Installation
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that a Fortran compiler (GFortran) is installed
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04

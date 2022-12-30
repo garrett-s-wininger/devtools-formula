@@ -41,4 +41,10 @@ suites:
     verifier:
       inspec_tests:
         - path: test/integration/erlang
+  - name: fortran
+    provisioner:
+      state_top:
+        base:
+          '*':
+            - DEVTOOLS.fortran
   
