@@ -1,0 +1,11 @@
+---
+name: Erlang
+title: Validate Erlang Installation
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that Erlang VM is installed
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04
