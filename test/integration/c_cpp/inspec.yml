@@ -1,0 +1,11 @@
+---
+name: GCC
+title: Validate GCC Installation
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that C/C++ compilers (GCC) are installed with debug tools
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04
