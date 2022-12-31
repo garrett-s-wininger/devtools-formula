@@ -1,0 +1,20 @@
+---
+extends: 'default'
+ignore: |
+  .bundle/
+  .git/
+  .kitchen/
+yaml-files:
+  - '*.yaml'
+  - '*.yml'
+  - .salt-lint
+  - .yamllint
+rules:
+  empty-values:
+    forbid-in-block-mappings: true
+    forbid-in-flow-mappings: true
+  line-length:
+    max: 88
+  octal-values:
+    forbid-implicit-octal: true
+    forbid-explicit-octal: true
