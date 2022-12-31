@@ -86,4 +86,13 @@ suites:
     verifier:
       inspec_tests:
         - path: test/integration/octave
+  - name: php
+    provisioner:
+      state_top:
+        base:
+          '*':
+            - DEVTOOLS.php
+    verifier:
+      inspec_tests:
+        - path: test/integration/php
   
