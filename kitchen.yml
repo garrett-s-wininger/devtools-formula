@@ -95,6 +95,15 @@ suites:
     verifier:
       inspec_tests:
         - path: test/integration/opengl_vulkan
+  - name: performance_analysis
+    provisioner:
+      state_top:
+        base:
+          '*':
+            - DEVTOOLS.performance_analysis
+    verifier:
+      inspec_tests:
+        - path: test/integration/performance_analysis
   - name: php
     provisioner:
       state_top:

@@ -19,7 +19,6 @@ install_performance_analysis_tooling:
       - iftop
       - iotop
       - iperf3
-      - linux-cpupower
       - lldpad
       - lshw
       - lsof

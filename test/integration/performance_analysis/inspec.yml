@@ -1,0 +1,11 @@
+---
+name: Performance Analysis
+title: Validate Performance Tooling
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that the presence of performance tooling
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04
