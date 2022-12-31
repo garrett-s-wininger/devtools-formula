@@ -1,0 +1,11 @@
+---
+name: Java
+title: Validate Java Installation
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that the Java Development Kit (JDK) is installed
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04

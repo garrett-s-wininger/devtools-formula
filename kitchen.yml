@@ -68,4 +68,13 @@ suites:
     verifier:
       inspec_tests:
         - path: test/integration/haskell
+  - name: java
+    provisioner:
+      state_top:
+        base:
+          '*':
+            - DEVTOOLS.java
+    verifier:
+      inspec_tests:
+        - path: test/integration/java
   
