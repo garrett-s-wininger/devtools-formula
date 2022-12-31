@@ -12,5 +12,6 @@ install_libraries_and_tooling:
 enable_opengl_extension_loading:
   pip.installed:
     - name: glad
+    - bin_env: /usr/bin/pip3
     - require:
       - pkg: install_libraries_and_tooling

@@ -86,6 +86,15 @@ suites:
     verifier:
       inspec_tests:
         - path: test/integration/octave
+  - name: opengl_vulkan
+    provisioner:
+      state_top:
+        base:
+          '*':
+            - DEVTOOLS.opengl_vulkan
+    verifier:
+      inspec_tests:
+        - path: test/integration/opengl_vulkan
   - name: php
     provisioner:
       state_top:

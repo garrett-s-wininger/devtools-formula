@@ -1,0 +1,11 @@
+---
+name: OpenGL/Vulkan
+title: Validate OpenGL/Vulkan Installation
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that OpenGL/Vulkan are available
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04
