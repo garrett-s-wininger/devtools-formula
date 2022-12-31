@@ -1,0 +1,11 @@
+---
+name: Ruby
+title: Validate Ruby Installation
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that a Ruby interpreter is installed
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04
