@@ -104,4 +104,13 @@ suites:
     verifier:
       inspec_tests:
         - path: test/integration/ruby
+  - name: rust
+    provisioner:
+      state_top:
+        base:
+          '*':
+            - DEVTOOLS.rust
+    verifier:
+      inspec_tests:
+        - path: test/integration/rust
   

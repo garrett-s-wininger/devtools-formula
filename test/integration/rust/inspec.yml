@@ -1,0 +1,11 @@
+---
+name: Rust
+title: Validate Rust Installation
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that Rust compiler and tooling is installed
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04
