@@ -1,0 +1,11 @@
+---
+name: Haskell
+title: Validate Haskell Installation
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that Haskell tooling is installed
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04
