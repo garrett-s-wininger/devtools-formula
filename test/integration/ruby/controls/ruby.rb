@@ -1,7 +1,9 @@
-control 'Ruby-Installation' do
-    title 'Validate Ruby interpreter is installed'
+# frozen_string_literal: true
 
-    describe package('ruby') do
-        it {should be_installed}
-    end
+control 'Ruby-Installation' do
+  title 'Validate Ruby interpreter is installed'
+
+  describe package('ruby') do
+    it { should be_installed }
+  end
 end

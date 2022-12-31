@@ -1,7 +1,9 @@
-control 'Octave-Installation' do
-    title 'Validate Octave is installed'
+# frozen_string_literal: true
 
-    describe package('octave') do
-        it {should be_installed}
-    end
+control 'Octave-Installation' do
+  title 'Validate Octave is installed'
+
+  describe package('octave') do
+    it { should be_installed }
+  end
 end

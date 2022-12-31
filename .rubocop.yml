@@ -1,0 +1,10 @@
+---
+Layout/LineLength:
+  Max: 88
+Metrics/BlockLength:
+  IgnoredMethods:
+    - control
+    - describe
+  Max: 30
+AllCops:
+  NewCops: enable
