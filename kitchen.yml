@@ -77,4 +77,13 @@ suites:
     verifier:
       inspec_tests:
         - path: test/integration/java
+  - name: octave
+    provisioner:
+      state_top:
+        base:
+          '*':
+            - DEVTOOLS.octave
+    verifier:
+      inspec_tests:
+        - path: test/integration/octave
   

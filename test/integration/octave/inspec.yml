@@ -1,0 +1,11 @@
+---
+name: Octave
+title: Validate Octave Installation
+maintainer: Garrett Wininger
+license: MIT
+summary: Validates that the Octave environment is installed
+supports:
+  - platform-name: debian
+    release: 11.*
+  - platform-name: ubuntu
+    release: 20.04
